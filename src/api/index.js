@@ -3,7 +3,7 @@ import auth from './auth'
 
 export const TOKEN_NAME = 'token'
 
-axios.defaults.baseURL = ''
+axios.defaults.baseURL = 'http://api.mattwilsonreport.com'
 axios.defaults.headers.post['Content-Type'] = 'application/json'
 
 export const setAccessToken = (token) => {
